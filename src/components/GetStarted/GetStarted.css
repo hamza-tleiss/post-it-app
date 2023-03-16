@@ -1,0 +1,58 @@
+.getStarted {
+  background-color: #ebebf0;
+  text-align: center;
+  padding: 10px;
+}
+.arrangeImg {
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+  color: #222a72;
+}
+.link {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.btnn {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: large;
+  background-color: #68e1fd;
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.leftEllipse {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+
+.rightEllipse {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+@media (max-width: 499px) {
+  .leftEllipse {
+    display: none;
+  }
+  .rightEllipse {
+    display: none;
+  }
+  .title {
+    font-size: large;
+  }
+}
+@media (max-height: 500px) {
+  .arrangeImg {
+    height: 20rem;
+  }
+}

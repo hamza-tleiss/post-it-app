@@ -1,0 +1,3 @@
+export const DELETE_PERMANENTLY = "DELETE_PERMANENTLY";
+export const ADD_POST_TO_TRASH = "ADD_POST_TO_TRASH";
+export const GET_TRASH = "GET_TRASH";
